@@ -1,0 +1,10 @@
+# Shared budget: identical for every condition (fairness)
+seed: 0
+base_channels: 32
+batch_size: 16
+epochs: 50
+lr: 0.001
+weight_decay: 0.0001
+workers: 4
+selection_metric: pooled_foreground_dice   # val-only, same rule for all conditions
+threshold_grid: [0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9]

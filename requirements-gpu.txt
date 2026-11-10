@@ -1,0 +1,4 @@
+# Installed on top of the official SageMaker PyTorch GPU DLC (torch/CUDA come from the container; do NOT pin CPU torch)
+tifffile
+pyyaml
+pandas
